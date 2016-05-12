@@ -1,0 +1,39 @@
+{
+  "name": "react-native-redux-starter",
+  "version": "1.0.0",
+  "description": "Get started with React Native and Redux.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eduvon0220/react-native-redux-starter"
+  },
+  "author": "Eric Duvon <eric@chie.do> (http://github.com/eduvon0220)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eduvon0220/react-native-redux-starter/issues"
+  },
+  "scripts": {
+    "start": "node_modules/react-native/packager/packager.sh"
+  },
+  "engines": {
+    "node": ">=4",
+    "npm": ">=2 <4"
+  },
+  "dependencies": {
+    "immutable": "^3.8.1",
+    "react": "^0.14.7",
+    "react-native": "^0.24.1",
+    "react-native-router-flux": "^3.22.22",
+    "react-redux": "^4.4.5",
+    "redux": "^3.5.2",
+    "redux-thunk": "^2.0.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.0.4",
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "eslint": "^2.8.0",
+    "eslint-config-airbnb": "^8.0.0",
+    "eslint-plugin-import": "^1.6.0",
+    "eslint-plugin-jsx-a11y": "^1.0.3",
+    "eslint-plugin-react": "^5.0.1"
+  }
+}
